@@ -42,6 +42,46 @@
 
             Navigation.PushAsync(new ProdutoPage() { BindingContext = produto });
         }
+        private void btnProduto3_Clicked(object sender, EventArgs e)
+        {
+            Produto produto = new Produto();
+
+            produto.Descricao = "Cadeira sla o nome";
+            produto.Preco = 300;
+            produto.Categoria = "Móveis";
+
+            Navigation.PushAsync(new ProdutoPage() { BindingContext = produto });
+        }
+        private void btnProduto4_Clicked(object sender, EventArgs e)
+        {
+            Produto produto = new Produto();
+
+            produto.Descricao = "Cadeira sla o nome";
+            produto.Preco = 300;
+            produto.Categoria = "Móveis";
+
+            Navigation.PushAsync(new ProdutoPage() { BindingContext = produto });
+        }
+        private void btnProduto5_Clicked(object sender, EventArgs e)
+        {
+            Produto produto = new Produto();
+
+            produto.Descricao = "Cadeira sla o nome";
+            produto.Preco = 300;
+            produto.Categoria = "Móveis";
+
+            Navigation.PushAsync(new ProdutoPage() { BindingContext = produto });
+        }
+        private void btnProduto6_Clicked(object sender, EventArgs e)
+        {
+            Produto produto = new Produto();
+
+            produto.Descricao = "Cadeira sla o nome";
+            produto.Preco = 300;
+            produto.Categoria = "Móveis";
+
+            Navigation.PushAsync(new ProdutoPage() { BindingContext = produto });
+        }
     }
 
 }

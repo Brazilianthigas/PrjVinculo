@@ -17,6 +17,26 @@
                 x:Name="btnProduto2"
                 Clicked="btnProduto2_Clicked"
                 />
+            <Button
+                Text="Abrir Produto 3"
+                x:Name="btnProduto3"
+                Clicked="btnProduto3_Clicked"
+                />
+            <Button
+                Text="Abrir Produto 4"
+                x:Name="btnProduto4"
+                Clicked="btnProduto3_Clicked"
+                />
+            <Button
+                Text="Abrir Produto 5"
+                x:Name="btnProduto5"
+                Clicked="btnProduto3_Clicked"
+                />
+            <Button
+                Text="Abrir Produto 6"
+                x:Name="btnProduto6"
+                Clicked="btnProduto3_Clicked"
+                />
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
@@ -24,7 +44,7 @@
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Hello, World!"
+                Text="Bem-Vindo a lista de celulares!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
